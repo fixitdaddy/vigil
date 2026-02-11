@@ -3,6 +3,8 @@
 > A backend-first, self-healing control plane that keeps services healthy by watching metrics, evaluating policies, and triggering automated remediation.
 
 ---
+<img width="1600" height="772" alt="image" src="https://github.com/user-attachments/assets/0430aacb-1583-4323-965f-211608628702" />
+
 
 ## 📌 Project Overview
 
@@ -14,6 +16,8 @@ Why Vigil matters:
 - Fits easily into existing stacks thanks to a clean REST API and simple deployment.
 
 ---
+<img width="1600" height="772" alt="image" src="https://github.com/user-attachments/assets/f468f888-12b0-40d4-8562-50aac930e2d6" />
+
 
 ## ✨ Core Features
 
@@ -152,6 +156,9 @@ You now have the backend running. Connect any frontend (React, Vite, Google AI S
 
 ---
 
+<img width="1600" height="772" alt="image" src="https://github.com/user-attachments/assets/afca74c6-0451-4b5f-8bce-f2e2f457dc62" />
+
+
 ## 🧪 Key API Endpoints
 
 | Endpoint | Method | Description |
@@ -170,6 +177,9 @@ You now have the backend running. Connect any frontend (React, Vite, Google AI S
 | `/api/v1/ui/simulator/*` | POST/GET | (To be moved) Start/stop simulator and view status. |
 | `/metrics` | GET | Prometheus metrics scrape endpoint. |
 | `/health` | GET | Simple service liveness check. |
+
+<img width="1600" height="772" alt="image" src="https://github.com/user-attachments/assets/9a06172b-84cf-45ab-8540-3620b7424fa1" />
+
 
 ### Example: Ingest Metric
 ```bash
@@ -241,6 +251,7 @@ curl -X POST http://localhost:8000/api/v1/policies \
 ```
 
 ---
+<img width="1600" height="772" alt="image" src="https://github.com/user-attachments/assets/13c634c8-b179-4782-8a93-54cc9d1731f3" />
 
 ## 🧑‍💻 Usage Walkthrough
 
@@ -253,6 +264,7 @@ curl -X POST http://localhost:8000/api/v1/policies \
 7. **Observe Metrics**: Prometheus scrapes `/metrics` for dashboards and alerting.
 
 ---
+<img width="1600" height="772" alt="image" src="https://github.com/user-attachments/assets/a0a94567-e11e-46f6-8b17-a3954b5dbecc" />
 
 ## 📊 Observability & Monitoring
 
@@ -262,6 +274,9 @@ curl -X POST http://localhost:8000/api/v1/policies \
 | Prometheus Metrics | Custom counters and gauges for ingest, queue depth, policy violations, and worker state. | Prometheus, Grafana |
 | Queue Stats Endpoint | Live queue health, successes, failures, last task info. | Custom dashboards, frontend integration |
 | Action History | Detailed status for each remediation, including timestamps and outcome. | REST clients, automation |
+
+<img width="1600" height="772" alt="image" src="https://github.com/user-attachments/assets/ad425ec8-e79a-4290-a871-679265faf50a" />
+
 
 Suggested setup:
 - Scrape `/metrics` with Prometheus.
@@ -282,6 +297,7 @@ Suggested setup:
 8. Operator sees the successful action and lower CPU usage on their dashboard minutes later.
 
 ---
+<img width="1600" height="772" alt="image" src="https://github.com/user-attachments/assets/912ea7d8-ac57-4f84-9a4f-3e110664071c" />
 
 ## 🛣️ Future Roadmap
 
