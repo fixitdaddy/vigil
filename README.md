@@ -120,7 +120,7 @@ stateDiagram-v2
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/techmedaddy/vigil.git
+git clone https://github.com/fixitdaddy/vigil.git
 cd vigil
 ```
 
